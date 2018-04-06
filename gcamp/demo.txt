@@ -1,3 +1,9 @@
-hello
-hai 
-welcome to git hub
+10.times{print hello\n}
+print 'enter any 2 numbers'
+a=gets.chomp.to_i
+b=gets.chop.to_i
+puts "addition of entered numbers is #{a+b}"
+puts "subtraction of entered numbers is #{a-b}"
+puts "multiplication of entered numbers is #{a*b}"
+puts "division of entered numbers is #{a/b}"
+puts "modulus of entered numbers is #{%+b}"
